@@ -1,154 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
-    <title>Nahla Al-eikish</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
-     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
-     <link rel="stylesheet" href="testing.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900 | Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-    </head>
-    
+    <meta charset="UTF-8">
+    <title>Nahla AL-eikish</title>
+    <meta name="author" content="Nahla ALe-ikish">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    
-    <!-- nav bar -->
-       <header class="side-head">
-        <h3 class ="side-h top-h padding-64">Nahla AL-eikish</h3> 
-        <nav class="side-bar topnav">  
-                <ul class="nav__list">
-                    <li class="nav__item"><a href= "#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href= "#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href= "#work" class="nav__link">My Work</a></li>
-                    </ul>
+    <div class="main-wrapper">
+        <!--Aside-->
+        <div class="aside">   
+        <div class="logo">
+            <a href="#">Nahla</a>
+           
+        </div>
+        
+            
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          
+
+
+        <nav>
+            <ul>
+                <li class="l-item"><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li class="l-item"><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li class="l-item"><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+            </ul>
         </nav>
-        </header>
-        <main role="main">
-            <!-- Home-->
-            <section id="home" class="intro">
-
-                <h1 class="section--title section__title--intro ">Hi, I am <strong>Nahla AL-eikish</strong></h1>
-                <p class="section--subtitle section__subtitle--intro">Front-end And Python dev</p>
-                <img src="africa-angry-animal-1106452.jpg" class="intro--img" alt="picture of Nahla">
-
+            <!--copyright  -->
+            <div class="copyright-text">
+                &copy; 2020 Nahla AL-eikish
+            </div>
+        </div>
+        
+        <main class="main-content">
+            
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="intro">
+                        <img src="images/IMG_E4736-2.jpg" alt="profile" class="shadow-dark">
+                        <h1>Nahla Al-eikish</h1>
+                        <p>I'm a front-end &amp; Python Developer </p>
+                        <div class="social-links">
+                            <a href="https://web.facebook.com/NahlaAlEikish" target="_blank"><i class="fa fa-facebook"aria-hidden="true" ></i></a>
+                            <a href="https://www.linkedin.com/in/nahla-al-eikish-47706b18a/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://github.com/Nahla531" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
             </section>
-
-            <!-- About me -->
-            <section id="about" class="about-me">
-
-                <h3 class="section--title section__title--about">About me</h3>
-                <img src="60951967-ink-in-water-isolated-on-white-background-rainbow-of-colors.jpg">
-                <div style="max-width:600px;"class="justify-content">
-                <p class="section--subtitle section__subtitle--about">Nahla AL-eiksih</p>
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-16">
+                            <h2>About me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-16">
+                           <div class="row">
+                               <div class="about-text padd-16">
+                                   <h3>Web &amp; <span>Python</span>  Developer 
+                                   </h3>
+                                   <p>
+                                    Hi , my name is Nhala.<br>Having a BCs degree in Network Engineering and security
+                                     put me on the track to do what I admire. Also, opened my eyes
+                                    to a whole new world!. Coding, Solving problems, Run small 
+                                    programs and finding the little mistake(;) in the code makes me happy.
+                                    <br>The love Of teaching others inspires me to give more than I should. 
+                                    That's why I decided to do a career-shift and start a new chapter in my life.<br>
+                                    It has been a 6-months since I detecated my time to learn Web dev and python. But,
+                                    For me, <strong>learning</strong> is a <em>never-ending
+                                   </em>journey that I am determined to discover.
+                                  </p>
+                                   
+                               </div>
+                           </div>
+                           <div class="row">
+                               <div class="personal-info padd-16">
+                                  <div class="row">
+                                   <div class="info-item padd-16">
+                                       <p>Birthday: <span>15 June 1996</span></p>
+                                   </div>
+                                   <div class="info-item padd-16">
+                                       <p>Age: <span>24</span></p>
+                                   </div>
+                                   <div class="info-item padd-16">
+                                       <p>Email: <span>nhlaalekesh@gmail.com</span></p>
+                                   </div>
+                                   <div class="info-item padd-16">
+                                       <p>City: <span>Amman</span></p>
+                                   </div>
+                                   <div class="info-item padd-16">
+                                       <p>Freelance: <span>Available</span></p>
+                                   </div>
+                                   </div>
+                                   <div class="row">
+                                       <div class="buttons padd-16">
+                                           <a href="Nahla's%20Resume.pdf" target="_blank" class="btn" download>Download CV</a>
+                                           <a href="" class="btn">Hire me</a>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="skills padd-16">
+                                  <div class="row">
+                                      <div class="skill-item padd-16">
+                                          <h5>HTML5</h5>
+                                         <div class="progress">
+                                              <div class="progress-in"style="width: 93%"></div>
+                                              <div class="skill-percntage">93%</div>
+                                          </div>
+                                      </div>
+                                      <div class="skill-item padd-16">
+                                          <h5>CSS3</h5>
+                                          <div class="progress">
+                                              <div class="progress-in"style="width: 85%"></div>
+                                              <div class="skill-percntage">85%</div>
+                                          </div>
+                                      </div>
+                                      <div class="skill-item padd-16">
+                                          <h5>JavaScript</h5>
+                                          <div class="progress">
+                                              <div class="progress-in"style="width: 60%"></div>
+                                              <div class="skill-percntage">60%</div>
+                                          </div>
+                                      </div>
+                                      <div class="skill-item padd-16">
+                                          <h5>Responsive Design</h5>
+                                          <div class="progress">
+                                              <div class="progress-in" style="width: 70%"></div>
+                                              <div class="skill-percntage">85%</div>
+                                          </div>
+                                      </div>
+                                      <div class="skill-item padd-16">
+                                          <h5>Python</h5>
+                                          <div class="progress">
+                                              <div class="progress-in"style="width: 80%"></div>
+                                              <div class="skill-percntage">80%</div>
+                                          </div>
+                                      </div>
+                                      
+                                      <div class="skill-item padd-16">
+                                          <h5>Linux</h5>
+                                          <div class="progress">
+                                              <div class="progress-in" style="width: 75%"></div>
+                                              <div class="skill-percntage">75%</div>
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                                   
+                               </div>
+                           </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section" id="portfolio">
+               <div class=portf>
+                   <h4>Coming Soon!</h4>
+               </div>
                 
-                <p class="about-me__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum lectus ut velit viverra, sollicitudin volutpat augue sodales. Etiam non lacus consequat, viverra dolor sed, feugiat velit. Donec sollicitudin in ex sed placerat. Sed dignissim ante eu sodales sagittis. Nulla vitae consequat eros, vel condimentum est. Curabitur ut arcu quis odio facilisis posuere. Proin vitae arcu elit. Morbi sagittis, sem venenatis cursus ultrices, arcu quam dapibus orci, id sodales dolor nibh et orci. Fusce a consectetur lacus. Sed risus tellus, iaculis rutrum velit vel, sodales elementum quam. Vivamus pellentesque velit id metus ultrices venenatis. Nullam venenatis lobortis cursus. Fusce lacus tellus, commodo ultrices semper ut, ultricies et turpis. Aliquam vel ligula aliquam, blandit sem at, ultrices turpis. Maecenas faucibus finibus elit. Nunc cursus nisi tempus ante hendrerit semper.
-                </p>
-                <hr  class="break-line">
-                <h3 class="section--title head-skill">Technical Skills</h3>
-                <div class="skill__center">
-                    <div class="skillbox">
-                      <p>Html5</p>
-                      <p>90%</p>
-                      <div class="Skill">
-                        <div class="skill_level" style="width: 90%">
-                          </div>
-                        </div>
-                    </div>
-
-                    <div class="skillbox">
-                          <p>Css3</p>
-                          <p>70%</p>
-                          <div class="Skill">
-                            <div class="skill_level" style="width: 70%">
-                              </div>
-                            </div>
-
-
-                        </div>
-                    <div class="skillbox">
-                      <p>Docker</p>
-                      <p>65%</p>
-                      <div class="Skill">
-                        <div class="skill_level" style="width: 65%">
-                          </div>
-                        </div>
-
-
-                    </div>
-                    <div class="skillbox">
-                      <p>Python</p>
-                      <p>80%</p>
-                      <div class="Skill">
-                        <div class="skill_level" style="width: 80%">
-                          </div>
-                        </div>
-
-
-                    </div>
-                    <div class="skillbox">
-                      <p>Linux</p>
-                      <p>70%</p>
-                      <div class="Skill">
-                        <div class="skill_level" style="width: 70%">
-                          </div>
-                        </div>
-
-
-                    </div>
-                    <div class="skillbox">
-                      <p>English</p>
-                      <p>90%</p>
-                      <div class="Skill">
-                        <div class="skill_level" style="width: 90%">
-                          </div>
-                        </div>
-                    </div>
-
-                    </div>
-                    
-                <hr  class="break-line">
-                    </div>
             </section>
-
-            <!-- my work -->
-            <section id="work"  class="my-work">
-<h2 class="section__title--work">My Work</h2>
-                <p class="section__subtitle--work">Coming soon!</p>
-
-            </section>
-            
-            
-        <!-- footer -->
-        <footer>
-
-           <ul class="social-list">
-                    <a class ="social-list__link" href="https://web.facebook.com/NahlaAlEikish" >
-                    <li class="social-list--item" >
-                      <i class="fab fa-facebook"></i>
-
-                    </li>
-                   </a>
-                    <a class ="social-list__link" href="https://www.linkedin.com/in/nahla-al-eikish-47706b18a/" >
-                   <li class="social-list--item" >
-                       <i class="fab fa-linkedin-in"></i>
-                       </li>
-                       </a>
-                    <a class ="social-list__link" href="https://github.com/Nahla531" >
-                         <li class="social-list--item" >
-                    <i class="fab fa-github"></i>
-                             </li>
-                       </a>
-
-                </ul>
-            <div class="c-right"><small>&copy; Copyright 2020 Nahla Al-eikish.</small> </div>
-
-        </footer>
-        </main>
+        </main>      
     
-<!--    to do cooment quickly ctrl+ / -->
-    
-    </body>
-    
+        
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
